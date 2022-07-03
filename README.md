@@ -1,4 +1,4 @@
-#Yatube API
+# Yatube API
  
 ## Описание
 (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Реализация соц. сети [Yatube](https://github.com/sasha0090/yatube_project)  на архитектуре REST API.
