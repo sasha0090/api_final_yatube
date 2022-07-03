@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Follow, Group, Post
+
+admin.site.register(Group)
+admin.site.register(Post)
+admin.site.register(Follow)
