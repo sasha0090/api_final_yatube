@@ -11,7 +11,7 @@ router.register("follow", FollowViewSet, basename="follow")
 router.register(
     r"posts/(?P<post_id>\d+)/comments",
     CommentViewSet,
-    basename="CommentView",
+    basename="posts",
 )
 urlpatterns = [
     path("v1/", include("djoser.urls")),
